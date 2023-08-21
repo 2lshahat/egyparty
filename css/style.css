@@ -1,0 +1,55 @@
+#EgyParty {
+  height: 90vh;
+
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.3)
+    ),
+    url(../img/party.jpg);
+  background-size: cover;
+  color: #fff;
+}
+.singer-card h4 {
+  cursor: pointer;
+}
+.open {
+  z-index: 999;
+  background-color: #cc2451;
+  height: 100%;
+  width: 270px;
+  left: -270px;
+}
+.openIcon {
+  right: -115px;
+  cursor: pointer;
+}
+.far {
+  position: absolute;
+  left: 240px !important;
+  cursor: pointer;
+}
+.singer-info {
+  display: none;
+}
+.list-group .li--group i {
+  font-size: 25px !important;
+  width: 40px !important;
+  color: #cc2451;
+}
+.social-media-icons i {
+  border: #cc2451 3px solid;
+  width: 50px;
+  height: 50px;
+}
+
+.social-media-icons i:hover {
+  background-color: #cc2451 !important;
+  color: #fff;
+  cursor: pointer !important;
+}
+.singer-info {
+  background-color: rgb(204, 36, 81, 0.5) !important ;
+}
+.singer-card h4 {
+  background-color: #cc2451 !important;
+}
